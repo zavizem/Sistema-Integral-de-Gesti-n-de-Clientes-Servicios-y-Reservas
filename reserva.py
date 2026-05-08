@@ -1,5 +1,26 @@
 from datetime import datetime
 
+# Excepciones personalizadas para la Reserva
+class ReservaError(Exception):
+    """Clase base para excepciones de Reserva"""
+    pass
+
+class ReservaYaConfirmadaError(ReservaError):
+    """Excepción lanzada cuando la reserva ya está confirmada"""
+    pass
+
+class ReservaYaCanceladaError(ReservaError):
+    """Excepción lanzada cuando la reserva ya está cancelada"""
+    pass
+
+class ReservaConfirmadaError(ReservaError):
+    """Excepción lanzada cuando se intenta cancelar una reserva confirmada"""
+    pass
+
+class ReservaCanceladaError(ReservaError):
+    """Excepción lanzada cuando se intenta procesar una reserva cancelada"""
+    pass
+
 # Clase Reserva
 class Reserva:
 
@@ -31,10 +52,10 @@ class Reserva:
     def confirmar(self):
 
         if self.estado == "confirmada":
-            raise Exception("La reserva ya está confirmada")
+            raise ReservaYaConfirmadaError("La reserva ya está confirmada")
 
         if self.estado == "cancelada":
-            raise Exception("No se puede confirmar una reserva cancelada")
+            raise ReservaCanceladaError("No se puede confirmar una reserva cancelada")
 
         self.estado = "confirmada"
 
@@ -44,10 +65,10 @@ class Reserva:
     def cancelar(self):
 
         if self.estado == "cancelada":
-            raise Exception("La reserva ya fue cancelada")
+            raise ReservaYaCanceladaError("La reserva ya fue cancelada")
 
         if self.estado == "confirmada":
-            raise Exception("No se puede cancelar una reserva confirmada")
+            raise ReservaConfirmadaError("No se puede cancelar una reserva confirmada")
 
         self.estado = "cancelada"
 
@@ -60,7 +81,7 @@ class Reserva:
 
             # Validar estado
             if self.estado == "cancelada":
-                raise Exception("No se puede procesar una reserva cancelada")
+                raise ReservaCanceladaError("No se puede procesar una reserva cancelada")
 
             print("Procesando reserva...")
 
@@ -71,9 +92,10 @@ class Reserva:
 
             return costo
 
-        except Exception as e:
+        except ReservaError as e:
 
             print("Error al procesar la reserva:", e)
+            return None
 
     # Mostrar información de la reserva
     def mostrar_reserva(self):
