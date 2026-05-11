@@ -1,0 +1,88 @@
+2026-05-10 11:26:54 - INFO - [logger.py:35] - Cliente 1 registrado correctamente
+2026-05-10 11:26:54 - ERROR - [logger.py:40] - Error en simulación 2: El nombre no puede estar vacío
+2026-05-10 11:26:54 - ERROR - [logger.py:40] - Error en simulación 3: El documento debe contener solo números
+2026-05-10 11:26:54 - ERROR - [logger.py:40] - Error en simulación 4: Correo electrónico inválido
+2026-05-10 11:26:54 - ERROR - [logger.py:40] - Error en simulación 5: El ID debe ser mayor que cero
+2026-05-10 11:26:54 - INFO - [logger.py:35] - Cliente 6 registrado correctamente
+2026-05-10 11:26:54 - ERROR - [logger.py:40] - Error en simulación 7: Correo electrónico inválido
+2026-05-10 11:26:54 - ERROR - [logger.py:40] - Error en simulación 8: El documento debe contener solo números
+2026-05-10 11:26:54 - ERROR - [logger.py:40] - Error en simulación 9: El nombre no puede estar vacío
+2026-05-10 11:26:54 - INFO - [logger.py:35] - Cliente 10 registrado correctamente
+2026-05-10 11:26:54 - INFO - [logger.py:35] - Finalización correcta del programa
+2026-05-11 12:26:02 - INFO - [logger.py:35] - Cliente 1 registrado correctamente
+2026-05-11 12:26:02 - ERROR - [logger.py:40] - Error en simulación 2: El nombre no puede estar vacío
+2026-05-11 12:26:02 - ERROR - [logger.py:40] - Error en simulación 3: El documento debe contener solo números
+2026-05-11 12:26:02 - ERROR - [logger.py:40] - Error en simulación 4: Correo electrónico inválido
+2026-05-11 12:26:02 - ERROR - [logger.py:40] - Error en simulación 5: El ID debe ser mayor que cero
+2026-05-11 12:26:02 - INFO - [logger.py:35] - Cliente 6 registrado correctamente
+2026-05-11 12:26:02 - ERROR - [logger.py:40] - Error en simulación 7: Correo electrónico inválido
+2026-05-11 12:26:02 - ERROR - [logger.py:40] - Error en simulación 8: El documento debe contener solo números
+2026-05-11 12:26:02 - ERROR - [logger.py:40] - Error en simulación 9: El nombre no puede estar vacío
+2026-05-11 12:26:02 - INFO - [logger.py:35] - Cliente 10 registrado correctamente
+2026-05-11 12:26:02 - INFO - [logger.py:35] - Finalización correcta del programa
+2026-05-11 12:27:39 - INFO - [logger.py:35] - Reserva de sala realizada correctamente
+2026-05-11 12:27:39 - ERROR - [logger.py:40] - Error en simulación 2: AlquilerEquipo.__init__() missing 1 required positional argument: 'dias'
+2026-05-11 12:27:39 - INFO - [logger.py:35] - Asesoría registrada correctamente
+2026-05-11 12:27:39 - ERROR - [logger.py:40] - Error en simulación 4: Correo electrónico inválido
+2026-05-11 12:27:39 - ERROR - [logger.py:40] - Error en simulación 5: El costo base debe ser mayor que cero
+2026-05-11 12:27:39 - ERROR - [logger.py:40] - Error en simulación 6: AlquilerEquipo.__init__() missing 1 required positional argument: 'dias'
+2026-05-11 12:27:39 - ERROR - [logger.py:40] - Error en simulación 7: El documento debe contener solo números
+2026-05-11 12:27:39 - ERROR - [logger.py:40] - Error en simulación 8: El nombre no puede estar vacío
+2026-05-11 12:27:39 - ERROR - [logger.py:40] - Error en simulación 9: La duración debe ser mayor a 0
+2026-05-11 12:27:39 - ERROR - [logger.py:40] - Error en simulación 10: La reserva ya está confirmada
+2026-05-11 12:27:39 - INFO - [logger.py:35] - Finalización correcta del programa
+2026-05-11 12:28:01 - INFO - [logger.py:35] - Reserva de sala realizada correctamente
+2026-05-11 12:28:01 - ERROR - [logger.py:40] - Error en simulación 2: AlquilerEquipo.__init__() missing 1 required positional argument: 'dias'
+2026-05-11 12:28:01 - INFO - [logger.py:35] - Asesoría registrada correctamente
+2026-05-11 12:28:01 - ERROR - [logger.py:40] - Error en simulación 4: Correo electrónico inválido
+2026-05-11 12:28:01 - ERROR - [logger.py:40] - Error en simulación 5: El costo base debe ser mayor que cero
+2026-05-11 12:28:01 - ERROR - [logger.py:40] - Error en simulación 6: AlquilerEquipo.__init__() missing 1 required positional argument: 'dias'
+2026-05-11 12:28:01 - ERROR - [logger.py:40] - Error en simulación 7: El documento debe contener solo números
+2026-05-11 12:28:01 - ERROR - [logger.py:40] - Error en simulación 8: El nombre no puede estar vacío
+2026-05-11 12:28:01 - ERROR - [logger.py:40] - Error en simulación 9: La duración debe ser mayor a 0
+2026-05-11 12:28:01 - ERROR - [logger.py:40] - Error en simulación 10: La reserva ya está confirmada
+2026-05-11 12:28:01 - INFO - [logger.py:35] - Finalización correcta del programa
+2026-05-11 12:28:15 - INFO - [logger.py:35] - Reserva de sala realizada correctamente
+2026-05-11 12:28:15 - ERROR - [logger.py:40] - Error en simulación 2: AlquilerEquipo.__init__() missing 1 required positional argument: 'dias'
+2026-05-11 12:28:15 - INFO - [logger.py:35] - Asesoría registrada correctamente
+2026-05-11 12:28:15 - ERROR - [logger.py:40] - Error en simulación 4: Correo electrónico inválido
+2026-05-11 12:28:15 - ERROR - [logger.py:40] - Error en simulación 5: El costo base debe ser mayor que cero
+2026-05-11 12:28:15 - ERROR - [logger.py:40] - Error en simulación 6: AlquilerEquipo.__init__() missing 1 required positional argument: 'dias'
+2026-05-11 12:28:15 - ERROR - [logger.py:40] - Error en simulación 7: El documento debe contener solo números
+2026-05-11 12:28:15 - ERROR - [logger.py:40] - Error en simulación 8: El nombre no puede estar vacío
+2026-05-11 12:28:15 - ERROR - [logger.py:40] - Error en simulación 9: La duración debe ser mayor a 0
+2026-05-11 12:28:15 - ERROR - [logger.py:40] - Error en simulación 10: La reserva ya está confirmada
+2026-05-11 12:28:15 - INFO - [logger.py:35] - Finalización correcta del programa
+2026-05-11 12:29:08 - INFO - [logger.py:35] - Reserva de sala realizada correctamente
+2026-05-11 12:29:08 - INFO - [logger.py:35] - Alquiler de equipo realizado correctamente
+2026-05-11 12:29:08 - INFO - [logger.py:35] - Asesoría registrada correctamente
+2026-05-11 12:29:08 - ERROR - [logger.py:40] - Error en simulación 4: Correo electrónico inválido
+2026-05-11 12:29:08 - ERROR - [logger.py:40] - Error en simulación 5: El costo base debe ser mayor que cero
+2026-05-11 12:29:08 - INFO - [logger.py:35] - Reserva cancelada correctamente
+2026-05-11 12:29:08 - ERROR - [logger.py:40] - Error en simulación 7: El documento debe contener solo números
+2026-05-11 12:29:08 - ERROR - [logger.py:40] - Error en simulación 8: El nombre no puede estar vacío
+2026-05-11 12:29:08 - ERROR - [logger.py:40] - Error en simulación 9: La duración debe ser mayor a 0
+2026-05-11 12:29:08 - ERROR - [logger.py:40] - Error en simulación 10: La reserva ya está confirmada
+2026-05-11 12:29:08 - INFO - [logger.py:35] - Finalización correcta del programa
+2026-05-11 12:29:13 - INFO - [logger.py:35] - Reserva de sala realizada correctamente
+2026-05-11 12:29:13 - INFO - [logger.py:35] - Alquiler de equipo realizado correctamente
+2026-05-11 12:29:13 - INFO - [logger.py:35] - Asesoría registrada correctamente
+2026-05-11 12:29:13 - ERROR - [logger.py:40] - Error en simulación 4: Correo electrónico inválido
+2026-05-11 12:29:13 - ERROR - [logger.py:40] - Error en simulación 5: El costo base debe ser mayor que cero
+2026-05-11 12:29:13 - INFO - [logger.py:35] - Reserva cancelada correctamente
+2026-05-11 12:29:13 - ERROR - [logger.py:40] - Error en simulación 7: El documento debe contener solo números
+2026-05-11 12:29:13 - ERROR - [logger.py:40] - Error en simulación 8: El nombre no puede estar vacío
+2026-05-11 12:29:13 - ERROR - [logger.py:40] - Error en simulación 9: La duración debe ser mayor a 0
+2026-05-11 12:29:13 - ERROR - [logger.py:40] - Error en simulación 10: La reserva ya está confirmada
+2026-05-11 12:29:13 - INFO - [logger.py:35] - Finalización correcta del programa
+2026-05-11 12:30:49 - INFO - [logger.py:35] - Reserva de sala realizada correctamente
+2026-05-11 12:30:49 - INFO - [logger.py:35] - Alquiler de equipo realizado correctamente
+2026-05-11 12:30:49 - INFO - [logger.py:35] - Asesoría registrada correctamente
+2026-05-11 12:30:49 - ERROR - [logger.py:40] - Error en simulación 4: Correo electrónico inválido
+2026-05-11 12:30:49 - ERROR - [logger.py:40] - Error en simulación 5: El costo base debe ser mayor que cero
+2026-05-11 12:30:49 - INFO - [logger.py:35] - Reserva cancelada correctamente
+2026-05-11 12:30:49 - ERROR - [logger.py:40] - Error en simulación 7: El documento debe contener solo números
+2026-05-11 12:30:49 - ERROR - [logger.py:40] - Error en simulación 8: El nombre no puede estar vacío
+2026-05-11 12:30:49 - ERROR - [logger.py:40] - Error en simulación 9: La duración debe ser mayor a 0
+2026-05-11 12:30:49 - ERROR - [logger.py:40] - Error en simulación 10: La reserva ya está confirmada
+2026-05-11 12:30:49 - INFO - [logger.py:35] - Finalización correcta del programa
